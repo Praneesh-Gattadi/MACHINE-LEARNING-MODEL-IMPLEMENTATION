@@ -1,3 +1,5 @@
+# Machine Learning Model
+
 *COMPANY*: CODTECH IT SOLUTIONS
 
 *NAME*: Gattadi Praneesh
@@ -45,33 +47,25 @@ Before feeding the data into the model, preprocessing is essential:
 
 For this classification task, the **Multinomial Naive Bayes** algorithm was used. It is a popular choice for text classification problems due to its simplicity and efficiency. The model is trained on the training set and then tested on the unseen test data to evaluate its performance.
 
-```python
+python
 from sklearn.naive_bayes import MultinomialNB
-
 model = MultinomialNB()
 model.fit(X_train, y_train)
-```
 
 ## How to Run
 
 Follow these steps to run the project locally:
 
 1. **Clone the Repository**:
-   ```bash
    git clone https://github.com/Praneesh-Gattadi/MACHINE-LEARNING-MODEL-IMPLEMENTATION.git
    cd MACHINE-LEARNING-MODEL-IMPLEMENTATION
-   ```
 
 2. **Install Required Libraries**:
-   ```bash
    pip install numpy pandas scikit-learn matplotlib seaborn
-   ```
 
 3. **Launch Jupyter Notebook**:
-   ```bash
    jupyter notebook
-   ```
-   Then open the `Predictive Model.ipynb` file.
+   Then open the Predictive Model.ipynb file.
 
 4. **Run the Notebook**:
    - Run each cell in order.
